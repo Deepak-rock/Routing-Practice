@@ -1,26 +1,26 @@
 /* Write your CSS code here */
-.contact-section-container{
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.contact-section-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.contact-image{
-    width: 150px;
-    margin: 0 0 20px 0;
+.contact-image {
+  width: 150px;
+  margin: 0 0 20px 0;
 }
-.contact-heading{
-    font-size: 32px;
-    font-family: 'Roboto';
-    font-weight: 600;
-    color: #551e53;
+.contact-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #551e53;
 }
-@media screen and (min-width:768px){
-    .contact-image{
-        width: 350px;
-    }
-    .contact-heading{
-        font-size: 46px;
-    }
+@media screen and (min-width: 768px) {
+  .contact-image {
+    width: 350px;
+  }
+  .contact-heading {
+    font-size: 46px;
+  }
 }

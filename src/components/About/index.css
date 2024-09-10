@@ -1,31 +1,31 @@
 /* Write your CSS code here */
-.about-section-container{
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about-section-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.about-image{
-    width: 150px;
-    margin: 0 0 20px 0;
+.about-image {
+  width: 150px;
+  margin: 0 0 20px 0;
 }
-.about-heading{
-    font-size: 32px;
-    font-family: 'Roboto';
-    font-weight: 600;
-    color: #551e53;
+.about-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #551e53;
 }
-.description{
-    font-size: 14px;
-    font-family: 'Roboto';
-    color: #555555;
+.description {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #555555;
 }
-@media screen and (min-width:768px){
-    .about-image{
-        width: 350px;
-    }
-    .about-heading{
-        font-size: 46px;
-    }
+@media screen and (min-width: 768px) {
+  .about-image {
+    width: 350px;
+  }
+  .about-heading {
+    font-size: 46px;
+  }
 }
