@@ -12,3 +12,18 @@ body {
 }
 
 /* Write your CSS code here */
+.app-container{
+  background-color: #ffffff;
+  margin: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 8px solid #6d396b;
+  padding: 20px;
+}
+@media screen and (min-width: 1000px){
+  .app-container{
+      margin: 50px 15%;
+  }
+}
